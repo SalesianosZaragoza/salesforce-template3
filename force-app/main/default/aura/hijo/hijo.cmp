@@ -1,0 +1,7 @@
+<aura:component>
+// add callable method from outside
+<aura:method name="doSomething" action="{!c.writeMessage}"/>
+// add a message
+<aura:attribute name="message" type="String" default="Hello World son"/>
+
+</aura:component>	

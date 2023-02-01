@@ -1,0 +1,5 @@
+<aura:component>
+// add a button to call son method
+<aura:attribute name="message" type="String" default="Hello World"/>
+<input type="button" value="Click me" onclick="{!c.callSon}"/>
+</aura:component>	
