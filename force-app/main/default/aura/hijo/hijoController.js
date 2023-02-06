@@ -1,5 +1,8 @@
 ({
      changeMessage : function(component, event, helper) {
-        component.set("v.message", "cambio realizado desde el hijo");
+        var params = event.getParams();
+        if(params){
+            component.set("v.message", params.message);
+        }
     }
 })
