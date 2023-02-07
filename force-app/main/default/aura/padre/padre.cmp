@@ -1,5 +1,5 @@
 <aura:component>
 <c:hijo  message="hola buenos dias" aura:id="hijo"></c:hijo>
 <br/>
-<input type="button" onclick="{!c.llamarafuncionDelHijo}"/>
+<input type="button" value="llamada" onclick="{!c.llamarafuncionDelHijo}"/>
 </aura:component>	
