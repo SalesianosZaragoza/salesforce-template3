@@ -1,4 +1,6 @@
 <aura:component>
+  <aura:attribute name="componentPadre" type="Aura.component"></aura:attribute>
+  <aura:attribute name="message" type="string"></aura:attribute>
 <table border="2px">
     <th>datos</th>
     <tr onclick="{!c.changeMessage}">{!v.message}</tr>
